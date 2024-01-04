@@ -9,3 +9,4 @@
 | `girl-purple-dress.svg` | A simple SVG file of a handdrawn girl with a purple dress. | ![girl-purple-dress.svg](svg/girl-purple-dress.svg) |
 | `sun.svg` | A simple SVG file of a sun. | ![sun.svg](svg/sun.svg) |
 | `flower.svg` | A simple SVG file of a flower. | ![flower.svg](svg/flower.svg) |
+| `david.svg` | A simple SVG file of my face. | ![david.svg](svg/david.svg) |
