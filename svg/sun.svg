@@ -1,29 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Adobe Illustrator 24.2.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:#F2A516;stroke:#001219;stroke-miterlimit:10;}
-</style>
-<circle class="st0" cx="49.51" cy="50" r="12.5"/>
-<g>
-	
-		<rect x="47.58" y="69.29" transform="matrix(-1 -4.723972e-09 4.723972e-09 -1 99.0213 157.859)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="29.23" y="62.72" transform="matrix(-0.773 -0.6344 0.6344 -0.773 9.3399 148.0647)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="19.21" y="46" transform="matrix(-0.1951 -0.9808 0.9808 -0.1951 -29.3122 87.231)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="22.07" y="26.72" transform="matrix(0.4714 -0.8819 0.8819 0.4714 -19.3841 40.3862)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="36.51" y="13.63" transform="matrix(0.9239 -0.3827 0.3827 0.9239 -5.9801 16.482)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="55.98" y="12.67" transform="matrix(0.9569 0.2903 -0.2903 0.9569 8.9719 -15.849)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="71.64" y="24.29" transform="matrix(0.5556 0.8315 -0.8315 0.5556 60.9045 -46.0883)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="76.37" y="43.19" transform="matrix(-0.098 0.9952 -0.9952 -0.098 138.5566 -19.9095)" class="st0" width="3.86" height="19.29"/>
-	
-		<rect x="68.04" y="60.81" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 169.2619 70.8016)" class="st0" width="3.86" height="19.29"/>
-</g>
+<svg version="1.1" id="Ebene_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	y="0px"
+	viewBox="0 0 100 100" style="enable-background:new 0 0 100 100;" xml:space="preserve">
+	<style type="text/css">
+		.st0 {
+			fill: #F2A516;
+			stroke: #001219;
+			stroke-miterlimit: 10;
+		}
+
+		#sun {
+			animation: grow 1s alternate infinite;
+			transform-origin: center;
+		}
+
+		#rays {
+			animation: spin 20s linear infinite;
+			transform-origin: center;
+		}
+
+		@keyframes spin {
+			0% {
+				transform: rotate(0deg);
+			}
+
+			100% {
+				transform: rotate(360deg);
+			}
+		}
+
+		@keyframes grow {
+			0% {
+				transform: scale(1);
+			}
+
+			100% {
+				transform: scale(1.2);
+			}
+		}
+	</style>
+	<circle id="sun" class="st0" cx="49.51" cy="50" r="12.5" />
+	<g id="rays">
+		<rect x="47.58" y="69.29" transform="matrix(-1 -4.723972e-09 4.723972e-09 -1 99.0213 157.859)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="29.23" y="62.72" transform="matrix(-0.773 -0.6344 0.6344 -0.773 9.3399 148.0647)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="19.21" y="46" transform="matrix(-0.1951 -0.9808 0.9808 -0.1951 -29.3122 87.231)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="22.07" y="26.72" transform="matrix(0.4714 -0.8819 0.8819 0.4714 -19.3841 40.3862)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="36.51" y="13.63" transform="matrix(0.9239 -0.3827 0.3827 0.9239 -5.9801 16.482)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="55.98" y="12.67" transform="matrix(0.9569 0.2903 -0.2903 0.9569 8.9719 -15.849)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="71.64" y="24.29" transform="matrix(0.5556 0.8315 -0.8315 0.5556 60.9045 -46.0883)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="76.37" y="43.19" transform="matrix(-0.098 0.9952 -0.9952 -0.098 138.5566 -19.9095)" class="st0"
+			width="3.86" height="19.29" />
+
+		<rect x="68.04" y="60.81" transform="matrix(-0.7071 0.7071 -0.7071 -0.7071 169.2619 70.8016)" class="st0"
+			width="3.86" height="19.29" />
+	</g>
 </svg>
