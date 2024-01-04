@@ -1,5 +1,8 @@
-# solarsystem-svg
+# My SVG files
 
-Solar System SVG file
+## Files
 
-<img src="solarsystem.svg" width="100%" height="100%">
+| File | Description | Preview |
+| --- | --- | --- |
+| `solarsystem.svg` | A simple SVG file of the solar system. | ![solarsystem.svg](svg/solarsystem.svg) |
+| `rainbow.svg` | A simple SVG file of a rainbow. | ![rainbow.svg](svg/rainbow.svg) |
