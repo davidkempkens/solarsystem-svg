@@ -10,3 +10,4 @@
 | `sun.svg` | A simple SVG file of a sun. | ![sun.svg](svg/sun.svg) |
 | `flower.svg` | A simple SVG file of a flower. | ![flower.svg](svg/flower.svg) |
 | `david.svg` | A simple SVG file of my face. | ![david.svg](svg/david.svg) |
+| `k.svg` | A simple SVG file of the letter K. | ![k.svg](svg/k.svg) |
