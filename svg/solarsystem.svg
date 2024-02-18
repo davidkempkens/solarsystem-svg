@@ -26,56 +26,56 @@
             stroke="white"
             stroke-width="0.25">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="1s" repeatCount="indefinite" />
+                dur="10s" repeatCount="indefinite" />
         </circle>
         <circle id="venus" cx="61.4" cy="50" r=".75" fill="#F2C879" transform-origin="50 50"
             stroke="white"
             stroke-width="0.25">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="2s" repeatCount="indefinite" />
+                dur="20s" repeatCount="indefinite" />
         </circle>
         <circle id="earth" cx="67.1" cy="50" r="1" fill="#03588C" transform-origin="50 50"
             stroke="white"
             stroke-width="0.25">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="3s" repeatCount="indefinite" />
+                dur="30s" repeatCount="indefinite" />
         </circle>
         <circle id="mars" cx="72.8" cy="50" r=".9" fill="#F24E29" transform-origin="50 50"
             stroke="white"
             stroke-width="0.25">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="4s" repeatCount="indefinite" />
+                dur="40s" repeatCount="indefinite" />
         </circle>
         <circle id="jupiter" cx="78.5" cy="50" r="2.75" fill="#D96C0D" transform-origin="50 50"
             stroke="white"
             stroke-width="0.25">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="6s" repeatCount="indefinite" />
+                dur="50s" repeatCount="indefinite" />
         </circle>
         <g id="saturn" transform-origin="50 50">
             <ellipse id="saturn-ring" cx="84.2" cy="50" rx="3.5" ry="1" fill="none" stroke="#D9CAAD"
                 stroke-width=".75" stroke-opacity=".5" transform-origin="84.2 50"
                 transform="rotate(45)">
                 <animateTransform attributeName="transform" type="rotate" from="340" to="-20"
-                    dur="8s" repeatCount="indefinite" />
+                    dur="60s" repeatCount="indefinite" />
             </ellipse>
             <circle cx="84.2" cy="50" r="2.25" fill="#D9CAAD" transform-origin="50 50"
                 stroke="white"
                 stroke-width="0.25" />
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="8s" repeatCount="indefinite" />
+                dur="70s" repeatCount="indefinite" />
         </g>
         <circle id="uranus" cx="89.9" cy="50" r="1.5" fill="#BBE2F2" transform-origin="50 50"
             stroke="white"
             stroke-width="0.25">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="12s" repeatCount="indefinite" />
+                dur="80s" repeatCount="indefinite" />
         </circle>
         <circle id="neptune" cx="95.6" cy="50" r="1.5" fill="#5368A6" transform-origin="50 50"
             stroke="white"
             stroke-width="0.25">
             <animateTransform attributeName="transform" type="rotate" from="0" to="360"
-                dur="16" repeatCount="indefinite" />
+                dur="90" repeatCount="indefinite" />
         </circle>
     </g>
 </svg>
